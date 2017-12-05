@@ -1,0 +1,4 @@
+test:
+  override:
+    - sudo -E bash aabrantes-pub-keys.sh
+    - sudo -E bash aabrantes-pub-keys.sh
