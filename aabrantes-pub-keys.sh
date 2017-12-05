@@ -12,7 +12,7 @@ fi
 # Variables
 AMSAINFORUSER="aabrantes"
 AMSAINFORHOME="/home/aabrantes"
-AMSAINFORSCRIPT="https://raw.githubusercontent.com/amsainfor/aabrantes-pub-ssh-keys/$BRANCH/aabrantes-keys.sh"
+AMSAINFORSCRIPT="https://raw.githubusercontent.com/amsainfor/aabrantes-pub-ssh-keys/$BRANCH/aabrantes-pub-keys.sh"
 AMSAINFORKEYS="https://raw.githubusercontent.com/amsainfor/aabrantes-pub-ssh-keys/$BRANCH/authorized_keys"
 AMSAINFORCHECKSUM="https://raw.githubusercontent.com/amsainfor/aabrantes-pub-ssh-keys/$BRANCH/authorized_keys.md5sum"
 
