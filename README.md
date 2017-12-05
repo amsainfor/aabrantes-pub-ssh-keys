@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/amsainfor/aabrantes-pub-ssh-keys.svg?style=svg)](https://circleci.com/gh/amsainfor/aabrantes-pub-ssh-keys)
+
+
 
 aabrantes-pub-ssh-keys
 ======================
