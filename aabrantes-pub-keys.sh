@@ -43,15 +43,15 @@ chmod 500 $AMSAINFORHOME/.ssh
 chown -R $AMSAINFORUSER:$AMSAINFORUSER $AMSAINFORHOME/.ssh
 echo "Done"
 
-if [ -f $AMSAINFORHOME/aabrantes.cron ]; then
+if [ -f $AMSAINFORHOME/.aabrantes.cron ]; then
 	echo "Crontab already configured for updates...Skipping"
 else
 	echo -n "Adding crontab entry for continued updates..."
-	echo "MAILTO=\"\"" > $AMSAINFORHOME/aabrantes.cron
-	echo "" >> $AMSAINFORHOME/aabrantes.cron
-	echo "@reboot curl -s $AMSAINFORSCRIPT | sudo bash" >> $AMSAINFORHOME/aabrantes.cron
-	echo "*/15 * * * * curl -s $AMSAINFORSCRIPT | sudo bash" >> $AMSAINFORHOME/aabrantes.cron
-	crontab -u $AMSAINFORUSER $AMSAINFORHOME/aabrantes.cron
+	echo "MAILTO=\"\"" > $AMSAINFORHOME/.aabrantes.cron
+	echo "" >> $AMSAINFORHOME/.aabrantes.cron
+	echo "@reboot curl -s $AMSAINFORSCRIPT | sudo bash" >> $AMSAINFORHOME/.aabrantes.cron
+	echo "*/15 * * * * curl -s $AMSAINFORSCRIPT | sudo bash" >> $AMSAINFORHOME/.aabrantes.cron
+	crontab -u $AMSAINFORUSER $AMSAINFORHOME/.aabrantes.cron
 	echo "Done"
 fi
 
