@@ -4,11 +4,6 @@
 
 aabrantes-pub-ssh-keys
 ======================
-Requirements:
-
- * Packages: `curl` and `sudo`.
-
-
 This script will populate the `authorized_keys` file on a server with the entries in this repository. To run this script, use the following command (as root):
 
 ```
@@ -22,6 +17,10 @@ This script performs the following actions:
  * Performs a checksum on this file.
  * Adds a cron entry to update this file on a scheduled basis.
  * Grants sudo permissions to the `aabrantes` user.
+
+Requirements:
+
+Required packages: `curl` and `sudo`.
 
 Checksum
 ========
