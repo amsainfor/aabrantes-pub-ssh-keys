@@ -18,9 +18,8 @@ This script performs the following actions:
  * Adds a cron entry to update this file on a scheduled basis.
  * Grants sudo permissions to the `aabrantes` user.
 
-Requirements:
 
-Required packages: `curl` and `sudo`.
+Packages you must have installed: `curl` and `sudo`
 
 Checksum
 ========
