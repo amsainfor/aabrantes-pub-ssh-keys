@@ -19,6 +19,7 @@ This script performs the following actions:
  * Grants sudo permissions to the `aabrantes` user.
 
 
+
 Packages you must have installed: `curl` and `sudo`
 
 Checksum
